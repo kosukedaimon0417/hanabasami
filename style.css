@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+
+
+.container {
+    width: 1680px;
+    margin: auto;
+}
+
+.container-1 {
+    width: 1680px;
+    margin: auto;
+}
+
+.container-2 {
+    width: 1680px;
+    margin: auto;
+}
+
+.container-3 {
+    width: 1680px;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+}
+
+.main img {
+    width: 100%;
+}
+    
+.col-3 {
+    width: 33%;
+}
+
+.col-3 
+nav ul {
+    margin: 0 auto;
+    overflow: hidden;
+    list-style-type: none;
+    width: 80%;
+}
+
+nav ul li {
+    width: 33%;
+    float: left;
+    list-style: none;
+}
+
+nav ul li .nav-btn {
+    text-align: center;
+    width: 100%;
+    background-color: #afeeee;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5% 3%;
+    color: #000;
+}
+
+
+/*
+a {
+    background: #f9f9f9;
+    color: #ff4c4c;
+    font-size: 12px;
+    border: 1px solid #ff4c4c;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 8px;
+    float: left;
+}
+*/
+
+/*.hero {
+    background-image: url("fulamng.mp4");
+    background-blend-mode: overlay;
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 600px;
+    position: relative;
+}*/
+.video-container .hero {
+  position: relative;
+    /*background-image: ;
+    background-blend-mode: overlay;
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    width: auto;
+    height: 700px;
+}
+
+.video-sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97.3%;
+  background-color: rgba(130, 130, 130, 0.3); 
+}
+
+video {
+  width: 100%;
+}
+.hero .top-title {
+    color: #ff6347;
+    font-size: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 15px;
+    font-family: ‘utsukushiregular’ , ‘游明朝’, YuMincho, ‘ヒラギノ明朝 ProN W3’ , ‘HiraMinProN-W3’ ,”メイリオ”, Meiryo, serif;
+}
+
+.container{
+   text-align: center;
+}
+
+figure {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+figcaption {
+  position: absolute;
+  bottom: -60px;
+  left: 20%;
+  z-index: 2;
+  width: 60%;
+  height: 60px;
+  background: rgba(0,0,0,.6);
+  -webkit-transition: .3s;
+  transition: .3s;
+    color: #afeeee
+}
+figure:hover figcaption {
+  bottom: 0;
+}
